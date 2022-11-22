@@ -7,6 +7,8 @@ global using Chroma.Graphics;
 global using Chroma.Input;
 global using Chroma.Input.GameControllers;
 global using Chroma.Diagnostics.Logging;
+global using Color = Chroma.Graphics.Color;
+global using Momentum;
 global using System;
 global using System.Numerics;
 global using System.Drawing;

@@ -11,5 +11,15 @@
         <PackageReference Include="Chroma" Version="0.57.0" />
         <PackageReference Include="Chroma.Commander" Version="1.0.1" />
     </ItemGroup>
+        
+    <ItemGroup>
+      <ProjectReference Include="..\Momentum\Momentum\Momentum.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Content\crosshair.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
 
 </Project>
